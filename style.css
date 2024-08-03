@@ -1,0 +1,25 @@
+table {
+  border: 3px solid burlywood;
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 3px solid black;
+  padding: 6px;
+  text-align: center;
+}
+th {
+  background-color: slateblue;
+  color: whitesmoke;
+  height: 30px;
+}
+tr:nth-child(even) {
+  background-color: aqua;
+}
+tr:nth-child(odd) {
+  background-color: aquamarine;
+}
+tr:hover {
+  background-color: tomato;
+}
